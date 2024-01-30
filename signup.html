@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign-UP</title>
+</head>
+<body   class= "Signup-form">
+ 
+    <form id="signup-form" action="/signup" method="post">
+      <div id="loto">SIGN UP</div>
+       <div id="N-UN">
+         <label for="new-username">New Username: </label>
+         <input type="text" id="new-username" placeholder="Enter your name" name="text" id="text"  class="input-field" autocomplete="name" required >
+        </div>
+        <div id="npass">
+         <label for="new-password">Enter Password: </label>
+         <input type="password" placeholder=" New Password" id="new-password" class="input-field" required>
+         </div>
+           <div id="npass">
+         <label for="new-password">Renter Password: </label>
+         <input type="password" placeholder="Renter Password" id="confirm-password" class="input-field" required>
+         </div>
+         <div id="npass">
+            <label for="new-dob">Date of Birth:  </label>
+            <input type="date" id="dob" class="input-field" required>
+         </div>
+         <button type="button"  class="button type2" onclick="create_account()">Signup</button>
+     </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

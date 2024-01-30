@@ -1,0 +1,186 @@
+body {
+    background-color: #770ca1;
+    /* Replace with your desired color code */
+    margin: 0;
+    /* Remove default margin */
+    padding-left: 10;
+    padding-top: 10;
+    background-image: url('eyes-open.jpg');
+}
+
+#h1 {
+    text-align: center;
+    min-height: flex;
+    min-height: 30%;
+    height: 30%;
+    background-color: #092934;
+    color: antiquewhite;
+    border-radius: 50px 50px 50px 50px;
+    justify-content: center;
+    text-shadow: #0c7ca1;
+}
+
+#loto {
+    text-align: center;
+    font-size: larger;
+}
+
+#soto {
+
+    text-align: center;
+    font-size: larger;
+
+}
+
+.cont {
+    background: #3d556c;
+    text-align: center;
+    min-height: flex;
+    min-height: flex;
+    display: flex;
+    height: 1000%;
+    justify-content: center;
+    justify-items: center;
+}
+
+#log {
+    text-align: center;
+    height: 50px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #0c7ca1;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-right: 50px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#sign {
+    text-align: center;
+    height: fit-content;
+    min-height: flex;
+    min-height: 30%;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    justify-items: center;
+    background: #0c9fa1;
+    margin-left: 50px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+
+.login-form {
+    margin-top: 50px;
+    margin-left: 30%;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 67px;
+    background: #2aa78e;
+    box-shadow: 10px 10px 0px #114339,
+        -10px -10px 0px #43ffe3;
+}
+
+#login-form1 {
+    width: 300px;
+    /* Set a fixed width for the form */
+    padding: 60px;
+    border-radius: 67px;
+    background: #035e4c;
+    box-shadow: inset 14px 14px 0px #01261e,
+        inset -14px -14px 0px #05967a;
+
+}
+
+#login-form h2 {
+    text-align: center;
+    font-weight: 400;
+    padding-left: 100;
+}
+
+#username,
+#password {
+    margin-bottom: 15px;
+    font-weight: 100;
+    color: #01261e;
+}
+
+.Signup-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #1a7b93;
+
+}
+
+#signup-form {
+
+    width: 300px;
+    /* Set a fixed width for the form */
+    padding: 60px;
+    border-radius: 67px;
+    background: #035e4c;
+    box-shadow: inset 14px 14px 0px #01261e,
+        inset -14px -14px 0px #05967a;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+
+button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+
+button:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+
+button:disabled {
+    cursor: auto;
+    color: grey;
+}
+
+.detail {
+    text-align: center;
+    border-radius: 79px;
+    background: linear-gradient(145deg, #a74747, #c75555);
+    box-shadow: 14px 14px 0px #4a2020,
+        -14px -14px 0px #ff7e7e;
+}
